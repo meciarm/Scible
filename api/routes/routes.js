@@ -25,10 +25,10 @@ var testHandlers = require('../handlers/testHandlers');
 
 /*           API           */
 
-router.get('/u', testHandlers.getTestMessage);
-router.get('/u', testHandlers.getTestAll);
-router.get('/u', testHandlers.getTestById);
-router.get('/u', testHandlers.postTest);
+router.get('/test', testHandlers.getTestMessage);
+router.get('/testGetAll', testHandlers.getTestAll);
+router.get('/testGet', testHandlers.getTestById);
+router.get('/testPost', testHandlers.postTest);
 
 /*    API error handling   */
 
